@@ -169,9 +169,4 @@ function checkCookie() {
 }
 
 checkCookie();
-//to load the strings everytime when refreshed
-window.onload = function() {
-  checkCookie();
-};
-
 
